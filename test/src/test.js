@@ -17,9 +17,11 @@ tests.describe("JSONHTTPRequest", function(test){
       JSON.stringify([{ id: 1, text: "Provide examples", done: true }])
     ])
     var todos_request = new JSONHTTPRequest({method: 'GET', url: '/todos'})
-    return todos_request.send().then((todos) => {
+    todos_request.send().then((todos) => {
       expect(todos[0].id).to.equal(1)
       done()
+    }).catch(function(error){
+      done(error)
     })
     // todos_server.restore()
   })
