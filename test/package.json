@@ -1,0 +1,10 @@
+{
+  "name": "json_http_request_test",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "express": "^4.13.4",
+    "rosehip": "^0.6.0",
+    "sinon": "^1.17.3",
+    "expect.js": "^0.3.1"
+  }
+}

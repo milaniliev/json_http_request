@@ -1,2 +1,3 @@
-# json_http_request
-JSONHTTPRequest is a simple, Promise-based wrapper around XMLHttpRequest
+# JSONHTTPRequest
+A tiny, simple, dependency-free, Promise-based JSON wrapper around XMLHttpRequest.
+
